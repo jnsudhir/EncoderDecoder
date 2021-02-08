@@ -1,0 +1,185 @@
+*{
+    background-color: #e7e7e7;
+}
+
+.heading {
+    text-align: center;
+    background-position: 15cm;
+}
+.menubar {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    border-color:#7957fb;
+    
+    box-shadow: -3px -3px 5px white,3px 3px 15px #7957fb;
+    border-radius: 25px;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+.menubar ul {
+    display: inline-flex;
+    list-style: none;
+
+    
+}
+.menubar ul li {
+    width:fit-content;
+    margin: 15px;
+    padding: 15px;
+}
+.menubar ul li a {
+    text-decoration: none;
+    
+
+}
+.menubar ul li:hover
+{
+    background-color:#7957fb;
+    
+    border-radius: 15px;
+}
+.background-box {
+    background-color:#7957fb;
+    border-radius: 0.5cm;
+    margin-top: 1cm;
+    margin-left: 6cm;
+    size: 8in;
+    box-shadow:  -3px -3px 5px white,3px 3px 15px #7957fb;
+    width:25cm;
+    height: 10cm;
+}
+.Encodebox {
+
+    
+    border-radius: 0.5cm;
+    size: 8in;
+    box-shadow:  -3px -3px 5px black,3px 3px 15px #6448dc;
+    width:20cm;
+    margin-top: -19cm;
+    margin-left: 9cm;
+    height: 1cm;
+}
+.Decodebox {
+    position: absolute;
+    margin-left: 9cm;
+    margin-top: 4cm;
+    border-radius: 0.5cm;
+    size: 8in;
+    box-shadow:  -3px -3px 5px black,3px 3px 15px #6448dc;
+    width:20cm;
+    height:1cm;
+}
+.button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow:  -3px -3px 5px black,3px 3px 15px #6448dc;
+    width: 1.61cm;
+    margin: auto;
+    margin-top: -9.5cm;
+    font-size: medium;
+    margin-left:15.6cm;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 10px;
+    text-align: left;
+    vertical-align: auto;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    left: auto;
+    position: absolute;
+    margin-top: -5.5cm;
+  }
+ .fa-google {
+    background: #dd4b39;
+    color: white;
+    left: auto;
+    position: absolute;
+    margin-top: -3.5cm;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    left: auto;
+    position: absolute;
+    margin-top: -1.5cm;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+    left: auto;
+    position: absolute;
+    margin-top: 0.5cm;
+  }
+.background-box2 {
+       background-color:#7957fb;
+    border-radius: 0.5cm;
+    margin-top: 1cm;
+    margin-left: 6cm;
+    size: 8in;
+    box-shadow:  -3px -3px 5px white,3px 3px 15px #7957fb;
+    width:25cm;
+    height: 10cm;
+
+}
+.Encodebox1 {
+
+    
+    border-radius: 0.5cm;
+    size: 8in;
+    box-shadow:  -3px -3px 5px black,3px 3px 15px #6448dc;
+    width:20cm;
+    margin-top: 10cm;
+    margin-left: 9cm;
+    height: 1cm;
+}
+.Decodebox1 {
+    position: absolute;
+    margin-left: 9cm;
+    margin-top: 4cm;
+    border-radius: 0.5cm;
+    size: 8in;
+    box-shadow:  -3px -3px 5px black,3px 3px 15px #6448dc;
+    width:20cm;
+    height:1cm;
+}
+.button1 {    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow:  -3px -3px 5px black,3px 3px 15px #6448dc;
+    width: 1.61cm;
+    margin: auto;
+    margin-top: 10cm;
+    font-size: medium;
+    margin-left:15.6cm;
+
+}
+.button2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow:  -3px -3px 5px black,3px 3px 15px #6448dc;
+    width: 1.24cm;
+    margin: auto;
+    margin-top: -1cm;
+    font-size: medium;
+    margin-left:20cm;
+}
+.button3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow:  -3px -3px 5px black,3px 3px 15px #6448dc;
+    width: 1.24cm;
+    margin: auto;
+    margin-top: -12cm;
+    font-size: medium;
+    margin-left:20cm;
+
+}
