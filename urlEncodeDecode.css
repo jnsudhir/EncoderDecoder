@@ -122,6 +122,14 @@
     position: absolute;
     margin-top: 0.5cm;
   }
+  .fa-github {
+    background: #125688;
+    color: white;
+    left: auto;
+    position: absolute;
+    margin-top: 2.5cm;
+
+  }
 .background-box2 {
        background-color:#7957fb;
     border-radius: 0.5cm;
