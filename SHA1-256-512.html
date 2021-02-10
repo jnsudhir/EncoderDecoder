@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="MD5Hash.css">
+    <link rel="stylesheet" href="SHA1-256-512.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  <header>
         <div class="heading" style="background-image: url(settings.png); background-size: 0.6cm; background-repeat: no-repeat;">
@@ -19,7 +19,7 @@
         <ul>
             <li><a href="urlEncodeDecode.html" style="border-color: #7957fb;color: #7957fb;"  >URL Encode/Decode</a></li>
             <li><a href="Base64.html" style="border-color: #7957fb;color: #7957fb;">Base64 Encode/Decode</a></li>
-            <li><a href="MD5Hash.html" style="border-color: #7957fb;color: #7957fb;">MD5 Hash Generator</a></li>
+            <li><a href="MD5Hash.html" style="border-color: #7957fb;color: #7957fb;">MD5 Hash</a></li>
             <li><a href="SHA1-Hash.html" style="border-color: #7957fb;color: #7957fb;">SHA-1 Hash Generator</a></li>
             <li><a href="SHA1-256-512.html" style="border-color: #7957fb;color: #7957fb;">SHA-1 256/512 Hash Generator</a></li>
         </ul >        
@@ -33,37 +33,34 @@
             <input type="text" placeholder="Result" id="text2" style="height: 3cm; width: 20cm; border-radius: 0.3cm; border-color: #7957fb;">
         </div> 
     </div>
+    <div class="Decodebox">
+        <div class="inputbox2">
+            <input type="text" placeholder="Please enter a string to convert" id="text3" style="height: 3cm; width: 20cm; border-radius: 0.3cm; border-color: #7957fb;">
+        </div>
+        <div class="Resultbox2">
+            <input type="text" placeholder="Result" id="text4" style="height: 3cm; width: 20cm; border-radius: 0.3cm; border-color: #7957fb;">
+        </div> 
+    </div>
     <div class="Encode">
-        <input type="button" value="Convert" id="Convert-button" style="background-color: #7957fb; color: white; height: 1cm; border-color: #7957fb;">
+        <input type="button" value="Encode" id="Encode-button" style="background-color: #7957fb; color: white; height: 1cm; border-color: #7957fb;">
     </div>
     <div class="Clear1">
         <input type="button" value="Clear" id="Clear1-button" style="background-color: #7957fb; color: white; height: 1cm; border-color: #7957fb;">
     </div>
+    <div class="Decode">
+        <input type="button" value="Decode" id="Decode-button" style="background-color: #7957fb; color: white; height: 1cm; border-color: #7957fb;">
+    </div>
+    <div class="Clear2">
+        <input type="button" value="Clear" id="Clear2-button" style="background-color: #7957fb; color: white; height: 1cm; border-color: #7957fb;">
+    </div>
 </div>
-</body>
 <footer>
-    <h4 style="text-align: right; background-color: #7957fb; margin-top: 17cm; color:white;">Developed by J.N Sudhir || 2020</h4>
+    <h4 style="text-align: right; background-color: #7957fb; margin-top: 27cm; color:white;">Developed by J.N Sudhir || 2020</h4>
 </footer>
+</body>
 </html>
 <a href="https://www.facebook.com/jn.sudhir" class="fa fa-facebook"></a>
 <a href="https://www.google.com" class="fa fa-google"></a>
 <a href="https://www.linkedin.com/in/jnsudhir" class="fa fa-linkedin"></a>
 <a href="https://www.instagram.com/j.n.sudhir" class="fa fa-instagram"></a>
 <a href="https://www.github.com/jnsudhir" class="fa fa-github"></a>
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
-<script>
-        const input = document.querySelector('#text1');
-        const md5btn = document.querySelector('#Convert-button');
-        const clearbtn = document.querySelector('#Clear1-button');
-        clearbtn.addEventListener('click', () => {
-            document.querySelector('#text2').value = '';
-            document.querySelector('#text1').value = '';
-        });
-        md5btn.addEventListener('click', () => {
-            const hash = CryptoJS.MD5(input.value);
-            document.querySelector('#text2').value = hash.toString(CryptoJS.enc.Hex);
-        });
-
-</script>
