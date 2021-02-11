@@ -50,3 +50,19 @@
 <a href="https://www.linkedin.com/in/jnsudhir" class="fa fa-linkedin"></a>
 <a href="https://www.instagram.com/j.n.sudhir" class="fa fa-instagram"></a>
 <a href="https://www.github.com/jnsudhir" class="fa fa-github"></a>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+<script>
+        const input = document.querySelector('#text1');
+        const sha1btn = document.querySelector('#Convert-button');
+        const clearbtn = document.querySelector('#Clear1-button');
+        clearbtn.addEventListener('click', () => {
+            document.querySelector('#text2').value = '';
+            document.querySelector('#text1').value = '';
+        });
+        sha1btn.addEventListener('click', () => {
+            const hash = CryptoJS.SHA1(input.value);
+            console.log(hash);
+            document.querySelector('#text2').value = hash.toString(CryptoJS.enc.Hex);
+        });
+
+</script>
