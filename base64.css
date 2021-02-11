@@ -120,13 +120,13 @@
   box-shadow: -3px -3px 5px black,3px 3px 15px  black;
 }
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 10px;
-  text-align: left;
-  vertical-align: auto;
-  text-decoration: none;
-  margin: 5px 2px;
+padding: 20px;
+font-size: 30px;
+width: 10px;
+text-align: left;
+vertical-align: auto;
+text-decoration: none;
+margin: 5px 2px;
 }
 
 .fa:hover {
